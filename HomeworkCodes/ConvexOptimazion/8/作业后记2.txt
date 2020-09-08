@@ -1,0 +1,9 @@
+
+在第3次作业时发现第1.2次的bug。
+
+回溯直线搜索时有一行脑抽的代码，line28
+	t = t*belta^times
+应该为	
+	t = t0*belta^times  或  t = t*belta
+
+详见Homework3中的回溯（虽然是残差回溯）。		11:19 2018/11/26
